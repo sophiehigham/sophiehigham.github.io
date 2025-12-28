@@ -6,21 +6,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     body {
-      max-width: 700px;
-      margin: 3rem auto;
       font-family: system-ui, -apple-system, sans-serif;
+      background-color: #E6E6FA; /* light purple */
+      color: #333;
+      max-width: 700px;
+      margin: 2rem auto;
+      padding: 1rem;
       line-height: 1.6;
-      padding: 0 1rem;
+      text-align: center;
+    }
+    img {
+      max-width: 200px;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+    }
+    h1 {
+      margin-bottom: 0.5rem;
+    }
+    p {
+      font-size: 1.1rem;
+    }
+    a.linkedin {
+      display: inline-block;
+      margin-top: 1rem;
+      text-decoration: none;
+      color: #0A66C2;
+      font-weight: bold;
+    }
+    a.linkedin:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
-  <h1>Sophie Higham</h1>
-  <p>PhD student in robotics.</p>
 
+  <img src="images/profile.jpg" alt="Profile Picture">
+  <h1>About Me</h1>
   <p>
-    <a href="cv.pdf">CV</a> ·
-    <a href="https://www.linkedin.com/in/sophie-higham-84a54520b">LinkedIn</a>
+    Hi I'm Sophie <span>👋</span>. I'm a first year PhD Student at the Edinburgh Centre for Robotics, researching dependable continual learning for robotics. 
+    I'm part of the UKRI funded D2AIR (Dependable and Deployable AI for Robotics) CDT.
+    My research interests focus on improving the reliability of learning-based robotic systems under real-world constraints.
+    Before starting my PhDm I worked on technology solutions for the financial sector, focussing on deploying secure, scalable and cloud-native software systems to production.
   </p>
+
+  <a class="linkedin" href="https://www.linkedin.com/in/sophie-higham-84a54520b" target="_blank">
+    LinkedIn
+  </a>
+
 </body>
 </html>
